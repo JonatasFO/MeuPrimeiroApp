@@ -14,12 +14,20 @@ public class MainActivity extends Activity {
     private EditText editText;
     public static final String MENSAGEM = "br.usjt.sin.progmmulti.meuprimeiroapp";
 
+    /**
+     * @author Jonatas Ferreira de Oliveira RA: 818231518
+     */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         editText = findViewById(R.id.edit_text);
     }
+
+    /**
+     * @author Jonatas Ferreira de Oliveira RA: 818231518
+     */
 
     public void enviarMensagem(View view) {
 
